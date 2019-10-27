@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- SEO Meta Tags -->
+            <meta name="description" content="Website Development, Full Stack Developer">
+            <meta name="keywords" content="TailwindCSS, Tailwind, CSS Framework">
+            <meta name="author" content="Daniel Daréus">
+
+        <!-- OpenGraphic Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+            <meta property="og:site_name" content="Website development" /> <!-- website name -->
+            <meta property="og:site" content="http://www.webdevelopment.com" /> <!-- website link -->
+            <meta property="og:title" content="Website Development, Full Stack Developer" /> <!-- title shown in the actual shared post -->
+            <meta property="og:description" content="The web development class is a complete guide to develop professional website for specific company needs" /> <!-- description shown in the actual shared post -->
+            <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+            <meta property="og:url" content="http://www.webdevelopment.com" /> <!-- where do you want your post to link to -->
+            <meta property="og:type" content="article"/>
+
+        <!--Website Title-->
+        <title>Testing new CSS Framework TailwindCSS</title>
+
+        <!--Styles-->
+        <link href="css/styles.css" rel="stylesheet">
+        
+
+        <!--Favicon-->
+        <link href="images/favicon.png" rel="icon">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    </head>
+
+    <body class="bg-gray-200 flex content-center justify-center h-full items-center">
+    <div class="bg-white shadow-lg max-w-lg md:flex">
+        <img class="flex-1 w-full h-40 object-cover md:h-full" src="images/responsive-login-screen.png"></img> 
+        <div class="p-4 flex-1 md:flex md:flex-col justify-center">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4"> Responsive Login Screen</h1>
+            <div class="mb-4">
+            <label for="username" class="block text-blue-600 font-bold mb-2">User Login:</label>
+            <input type="text" id="username" name="username" class="border border-gray-300 rounded shadow w-full py-2 px-3 text-gray-600 focus:shadow-outline">
+            </div>
+             <div class="mb-4">
+            <label for="password" class="block text-blue-600 font-bold mb-2">Password:</label>
+            <input type="text" id="password" name="password" class="border border-gray-300 rounded shadow w-full py-2 px-3 text-gray-600 focus:shadow-outline">
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full">Login</button>
+        </div>
+    </div>
+    </body>
